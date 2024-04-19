@@ -69,6 +69,10 @@ public class GT4500 implements SpaceShip {
             if (! secondaryTorpedoStore.isEmpty()) {
               firingSuccess = secondaryTorpedoStore.fire(1);
               wasPrimaryFiredLast = false;
+              if(true) System.out.println("asdbcasdc");
+              for (int i = 0; i < 3; i++) {
+                System.out.println(4)
+              }
             }
 
             // if both of the stores are empty, nothing can be done, return failure
