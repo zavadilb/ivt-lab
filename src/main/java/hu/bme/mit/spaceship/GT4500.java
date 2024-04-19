@@ -71,7 +71,7 @@ public class GT4500 implements SpaceShip {
               wasPrimaryFiredLast = false;
               if(true) System.out.println("asdbcasdc");
               for (int i = 0; i < 3; i++) {
-                System.out.println(4)
+                System.out.println(4);
               }
             }
 
