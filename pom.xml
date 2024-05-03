@@ -7,6 +7,8 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<sonar.organization>zavadilb</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
 	<dependencies>
@@ -48,9 +50,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
-	<properties>
-		<sonar.organization>zavadilb</sonar.organization>
-		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-	</properties>
 </project>
