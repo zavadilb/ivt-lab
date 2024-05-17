@@ -1,0 +1,19 @@
+  /**
+  * Tries to fire the torpedo stores of the ship.
+  *
+  * @param firingMode how many torpedo bays to fire
+  * 	SINGLE: fires only one of the bays.
+  * 			- For the first time the primary store is fired.
+  * 			- To give some cooling time to the torpedo stores, torpedo stores are fired alternating.
+  * 			- But if the store next in line is empty, the ship tries to fire the other store.
+  * 			- If the fired store reports a failure, the ship does not try to fire the other one.
+  * 	ALL:	tries to fire both of the torpedo stores.
+  *
+  * @return whether at least one torpedo was fired successfully
+  */
+
+Test 1: check if ALL torpedo stores are fired with ALL firing mode.
+Test 2: check if for the first time the primary store is fired.
+Test 3: check if the torpedo stores are alternating
+Test 4: Check if the next one in line is empty, the ship tries to fire the other one
+Test 5: Check if the fired store reports a failiure, the ship does not fire the other one
